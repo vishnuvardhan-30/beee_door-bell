@@ -1,0 +1,17 @@
+Void setup()
+{
+pinMode(2,INPUT);
+pinMode(7,OUTPUT);
+}
+Void loop()
+{
+     Int reading=digitalRead(2);
+     If(reading==HIGH)
+    {
+         digitalWrite(7,HIGH);
+     }
+else
+   {
+         digitalWrite(7,LOW);
+   }
+}
